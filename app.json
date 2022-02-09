@@ -1,10 +1,14 @@
 {
   "expo": {
-    "name": "grimmorium",
+    "name": "Grimmorium",
     "slug": "grimmorium",
+    "description": "Grimmorium mobile App",
+    "githubUrl": "https://github.com/GabrielBizzi/Grimmorium",
     "version": "1.0.0",
+    "privacy":"public",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "primaryColor":"#A9F448",
     "owner": "darks1de",
     "splash": {
       "image": "./assets/splash.png",
@@ -24,7 +28,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.darks1de.grimmorium"
     },
     "web": {
       "favicon": "./assets/favicon.png"
