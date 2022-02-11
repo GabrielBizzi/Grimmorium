@@ -40,6 +40,36 @@ const MyBooks: React.FC = () => {
             <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
           </TouchableOpacity>
         </ContainerLinkBook>
+        <ContainerLinkBook>
+          <TouchableOpacity>
+            <ImageBook resizeMode="center" source={image} />
+            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
+          </TouchableOpacity>
+        </ContainerLinkBook>
+        <ContainerLinkBook>
+          <TouchableOpacity>
+            <ImageBook resizeMode="center" source={image} />
+            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
+          </TouchableOpacity>
+        </ContainerLinkBook>
+        <ContainerLinkBook>
+          <TouchableOpacity>
+            <ImageBook resizeMode="center" source={image} />
+            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
+          </TouchableOpacity>
+        </ContainerLinkBook>
+        <ContainerLinkBook>
+          <TouchableOpacity>
+            <ImageBook resizeMode="center" source={image} />
+            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
+          </TouchableOpacity>
+        </ContainerLinkBook>
+        <ContainerLinkBook>
+          <TouchableOpacity>
+            <ImageBook resizeMode="center" source={image} />
+            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
+          </TouchableOpacity>
+        </ContainerLinkBook>
       </ContainerMyBook>
     </>
   );
