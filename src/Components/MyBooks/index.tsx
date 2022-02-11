@@ -8,6 +8,8 @@ import {
   TitleContainer,
 } from "./styles";
 import image from "./../../Assets/hobit.png";
+import mark from "./../../Assets/mark-athena.jpg";
+import monster from "./../../Assets/medico-monstro.jpg";
 
 const MyBooks: React.FC = () => {
   return (
@@ -30,46 +32,17 @@ const MyBooks: React.FC = () => {
         </ContainerLinkBook>
         <ContainerLinkBook>
           <TouchableOpacity>
-            <ImageBook resizeMode="center" source={image} />
-            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
+            <ImageBook resizeMode="center" borderRadius={30} source={mark} />
+            <TextBook>The Mark of Athena</TextBook>
           </TouchableOpacity>
         </ContainerLinkBook>
         <ContainerLinkBook>
           <TouchableOpacity>
-            <ImageBook resizeMode="center" source={image} />
-            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
+            <ImageBook resizeMode="center" borderRadius={30} source={monster} />
+            <TextBook>O Médico e o Monstro</TextBook>
           </TouchableOpacity>
         </ContainerLinkBook>
-        <ContainerLinkBook>
-          <TouchableOpacity>
-            <ImageBook resizeMode="center" source={image} />
-            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
-          </TouchableOpacity>
-        </ContainerLinkBook>
-        <ContainerLinkBook>
-          <TouchableOpacity>
-            <ImageBook resizeMode="center" source={image} />
-            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
-          </TouchableOpacity>
-        </ContainerLinkBook>
-        <ContainerLinkBook>
-          <TouchableOpacity>
-            <ImageBook resizeMode="center" source={image} />
-            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
-          </TouchableOpacity>
-        </ContainerLinkBook>
-        <ContainerLinkBook>
-          <TouchableOpacity>
-            <ImageBook resizeMode="center" source={image} />
-            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
-          </TouchableOpacity>
-        </ContainerLinkBook>
-        <ContainerLinkBook>
-          <TouchableOpacity>
-            <ImageBook resizeMode="center" source={image} />
-            <TextBook>O Hobbit - J. R. R. Tolkien</TextBook>
-          </TouchableOpacity>
-        </ContainerLinkBook>
+        
       </ContainerMyBook>
     </>
   );
